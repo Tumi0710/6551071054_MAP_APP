@@ -1,0 +1,13 @@
+using System;
+using System.Windows.Forms;
+
+namespace HotelManagement
+{
+    public partial class FormTrangChu : UserControl
+    {
+        public FormTrangChu()
+        {
+            InitializeComponent();
+        }
+    }
+}
