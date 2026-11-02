@@ -1,4 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  <!-- LAB 1 & LAB 2: Hotel Management System -->
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>

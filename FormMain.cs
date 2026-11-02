@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Giao diện chính điều hướng MDI
 using System;
 using System.Drawing;
 using System.Linq;

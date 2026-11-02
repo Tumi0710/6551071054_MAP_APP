@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Điểm khởi động ứng dụng
 using System;
 using System.Windows.Forms;
 using HotelManagement.DangNhap;

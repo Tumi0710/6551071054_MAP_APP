@@ -1,3 +1,4 @@
+// LAB 2: Quản lý chi tiết tiện nghi loại phòng
 
 using     System;
 using     System.Collections.Generic;

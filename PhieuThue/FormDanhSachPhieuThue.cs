@@ -1,3 +1,4 @@
+// LAB 2: Quản lý danh sách phiếu thuê phòng
 
 using      System;
 using      System.Collections.Generic;

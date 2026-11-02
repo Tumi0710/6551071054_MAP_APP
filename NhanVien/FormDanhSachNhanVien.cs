@@ -1,3 +1,4 @@
+// LAB 2: Quản lý thông tin nhân viên khách sạn
 
 using System;
 using System.Collections.Generic;

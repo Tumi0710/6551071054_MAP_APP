@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Quản lý loại phòng và tiện nghi đi kèm
 
 using System;
 using System.Collections.Generic;

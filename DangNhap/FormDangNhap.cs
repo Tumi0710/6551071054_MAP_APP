@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Giao diện và xác thực đăng nhập
 using HotelManagement.Models;
 using Microsoft.EntityFrameworkCore;
 

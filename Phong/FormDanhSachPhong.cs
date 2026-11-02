@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Quản lý thông tin phòng
 
 using        ClosedXML.Excel;
 using        HotelManagement.Models;

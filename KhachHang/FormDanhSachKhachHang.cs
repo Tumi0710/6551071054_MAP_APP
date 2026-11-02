@@ -1,3 +1,4 @@
+// LAB 2: Quản lý thông tin khách hàng
 
 using System;
 using System.Collections.Generic;

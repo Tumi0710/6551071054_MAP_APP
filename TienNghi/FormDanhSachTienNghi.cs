@@ -1,3 +1,4 @@
+// LAB 2: Quản lý danh mục tiện nghi khách sạn
 
 using     System;
 using     System.Collections.Generic;

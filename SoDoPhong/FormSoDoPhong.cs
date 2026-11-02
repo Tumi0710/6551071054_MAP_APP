@@ -1,3 +1,4 @@
+// LAB 2: Quản lý sơ đồ phòng và đặt phòng trực quan
 
 using System;
 using System.Collections.Generic;

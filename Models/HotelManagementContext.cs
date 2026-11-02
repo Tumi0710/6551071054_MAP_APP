@@ -1,3 +1,4 @@
+// LAB 1 & LAB 2: Entity Framework Core DbContext
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
