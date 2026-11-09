@@ -1,5 +1,4 @@
-// LAB 1 & LAB 2: Quản lý tài khoản hệ thống
-
+// LAB 3: Quản lý danh sách tài khoản người dùng và phân quyền
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -90,11 +89,11 @@ DataGridViewAutoSizeColumnsMode.Fill;
                           switch (capDo)
                           {
                                   case 1:
-                                           return "Cấp 1                 -    Nhân viên";
+                                           return "Cấp 1 - Nhân viên";
                                   case 2:
-                                           return "Cấp 2                 -    Quản lý";
+                                           return "Cấp 2 - Quản lý";
                                   case 3:
-                                           return "Cấp 3                 -    Admin";
+                                           return "Cấp 3 - Admin";
                                   default:
                                            return "Cấp " + capDo;
                           }

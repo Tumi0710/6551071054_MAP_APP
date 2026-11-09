@@ -1,5 +1,4 @@
-// LAB 2: Quản lý danh sách hóa đơn khách sạn
-
+// LAB 3: Quản lý danh sách hóa đơn khách sạn
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -233,7 +232,7 @@ dtgDanhSachHoaDon.Rows[i].Cells[tenCot[j]].Value;
 
 
                                 DialogResult moFile = MessageBox.Show(
-                                         "Xuất dữ liệu thành công!                          \nBạn có muốn mở file vừa xuất không?",
+                                         "Xuất dữ liệu thành công!\nBạn có muốn mở file vừa xuất không?",
                                          "Thông báo",
                                          MessageBoxButtons.YesNo,
                                          MessageBoxIcon.Information);

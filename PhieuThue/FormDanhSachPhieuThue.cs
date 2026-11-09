@@ -1,6 +1,5 @@
-// LAB 2: Quản lý danh sách phiếu thuê phòng
-
-using      System;
+// LAB 3: Quản lý danh sách phiếu thuê phòng
+using System;
 using      System.Collections.Generic;
 using      System.ComponentModel;
 using      System.Data;

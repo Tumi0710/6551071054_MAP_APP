@@ -1,5 +1,6 @@
 
-using     System;
+// LAB 3: Thêm dịch vụ cho phòng đang thuê
+using System;
 using     System.Collections.Generic;
 using     System.ComponentModel;
 using     System.Data;
@@ -233,12 +234,12 @@ MessageBoxButtons                 .OK,      MessageBoxIcon               .Error)
 
 
 
-                                  if    ( gioiHanSoLuong                  && soLuong             >    dichVu      .SlconLai!.Value)
+                                  if (gioiHanSoLuong && soLuong > dichVu.SlconLai!.Value)
                                   {
-                                          MessageBox           . Show(      $"Dịch vụ            \"   { dichVu      .TenDv}        \"    chỉ còn { dichVu      .SlconLai.Value}                     phần."      ,    "Thông báo"            ,
-                                                   MessageBoxButtons                   .OK,      MessageBoxIcon                .Warning);
-                                          txtSoLuong.            Focus      ();
-                                          return       ;
+                                          MessageBox.Show($"Dịch vụ \"{dichVu.TenDv}\" chỉ còn {dichVu.SlconLai.Value} phần.", "Thông báo",
+                                                   MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                          txtSoLuong.Focus();
+                                          return;
                                   }
 
                                   var     daCo       =   db  .Ctdvs.        FirstOrDefault                ( v   =>     v.MaCtdp ==              maCTDP         && v.MaDv ==

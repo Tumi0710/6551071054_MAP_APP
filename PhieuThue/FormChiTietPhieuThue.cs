@@ -1,4 +1,5 @@
 
+// LAB 3: Chi tiết phiếu thuê & thanh toán hóa đơn
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -438,7 +439,7 @@ c.DaXoa != true);
                                         NgHd = DateTime.Now,
                                         TriGia = tongTien,
                                         MaNv = maNV,
-                                        TrangThai = "Chờ  KH xác nhận",
+                                        TrangThai = "Chờ KH xác nhận",
                                         MaCtdp = maCTDP,
                                         DaXoa = false
                                 });

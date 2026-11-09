@@ -1,5 +1,6 @@
 
-using      System;
+// LAB 3: Cập nhật trạng thái chi tiết phiếu thuê
+using System;
 using      System.Collections.Generic;
 using      System.ComponentModel;
 using      System.Data;
@@ -131,11 +132,11 @@ c .DaXoa !=            true    );
                                           return       ;
                                   }
 
-                                  if    ( chiTiet        .TrangThai !=                 "Đã đặt"           && chiTiet           .TrangThai !=                 "Đang thuê"             )
+                                  if (chiTiet.TrangThai != "Đã đặt" && chiTiet.TrangThai != "Đang thuê")
                                   {
-                                          MessageBox           .  Show(     "Chỉ có thể cập nhật chi tiết phiếu đang ở trạng thái      \"Đã đặt        \"     hoặc      \"  Đang thuê          \" !"  ,    "Thông báo"            ,
-                                                   MessageBoxButtons                   .OK,       MessageBoxIcon               .Warning);
-                                          return       ;
+                                          MessageBox.Show("Chỉ có thể cập nhật chi tiết phiếu đang ở trạng thái \"Đã đặt\" hoặc \"Đang thuê\"!", "Thông báo",
+                                                   MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                          return;
                                   }
 
                                   if    ( chiTiet        .TrangThai ==                 trangThaiMoi             )

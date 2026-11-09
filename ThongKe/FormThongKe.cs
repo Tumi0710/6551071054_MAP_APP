@@ -1,4 +1,4 @@
-// LAB 2: Báo cáo thống kê hoạt động khách sạn
+// LAB 3: Báo cáo thống kê hoạt động khách sạn
 using System;
 using System.Collections.Generic;
 using System.Data;
